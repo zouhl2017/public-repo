@@ -2,7 +2,11 @@ package com.zafkiel.Aspect;
 
 public class TimeAspect {
 
-    public  void  printTime(){
-        System.out.println("now  time is "+System.currentTimeMillis());
+    public  void  printTimeOne(){
+        System.out.println("time one is "+System.currentTimeMillis());
     }
+    public  void  printTimeTwo(){
+        System.out.println("time two is "+System.currentTimeMillis());
+    }
+
 }

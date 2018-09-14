@@ -21,6 +21,7 @@ public class Main {
         myFunction2.printNero();
         System.out.println("----------------------");
 
+
     }
 
 
