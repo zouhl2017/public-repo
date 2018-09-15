@@ -10,7 +10,7 @@
          http://www.springframework.org/schema/context
           http://www.springframework.org/schema/context/spring-context.xsd">
         <context:component-scan  base-package="com.zafkiel"/>
-        <aop:aspectj-autoproxy  expose-proxy="true" proxy-target-class="true"/>
+        <aop:aspectj-autoproxy  expose-proxy="true" proxy-target-class="false"/>
         <!--定义业务和切面的bean-->
         <bean id="myFunctionImpl1" class="com.zafkiel.Service.impl.MyFunctionImpl1"/>
         <bean id="myFunctionImpl2" class="com.zafkiel.Service.impl.MyFunctionImpl2"/>
