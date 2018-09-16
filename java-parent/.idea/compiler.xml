@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TestApp" />
+        <module name="java-advanced" />
+        <module name="java-algorithm" />
+        <module name="java-basics" />
+        <module name="java-collection" />
+        <module name="java-concurrency" />
+        <module name="java-jvm" />
       </profile>
     </annotationProcessing>
   </component>
